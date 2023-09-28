@@ -9,19 +9,34 @@
 body{
     background-color: #101728;
 }
+#logo{
+    width: 110px;
+    height: auto;
+}
 #titulo{
-    color: #fff;  
+    color: #fff; 
+    margin-top: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-principal{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 20px;
+    
 }
 
-.menu-container{
+.container-menu{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: right;
+    margin-left: 34%;
 }
 .menu-container div{
     display: flex;
     flex-direction: column;
+    
 }
 .menu{
     list-style:none;
@@ -44,7 +59,7 @@ body{
     }
 
 .menu li a:hover{
-    background:#FF3C5F;
+    background:#9340FF;
     color:#fff;
     box-shadow:0 3px 10px 0 #CCC;
     -webkit-box-shadow:0 3px 10px 0 #ccc;
