@@ -1,96 +1,59 @@
-* {
-    padding:0;
-    margin:0;
-    vertical-align:baseline;
-    list-style:none;
-    border:0
-    }
-
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 body{
     background-color: #101728;
 }
+
 header{
-    height: 80px;
+    height: 100px;
     background-color: rgb(147, 64, 255,0.3);
+    padding: 0 20px;
+    color: #fff;
+    display: flex;
     justify-content:space-between;
     align-items: center;
-}
-#logo{
-    width: 110px;
-    height: auto;
-}
-#titulo{
-    color: #fff; 
-    margin-top: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-}
-.container-principal{
-    display: flex;
-    justify-content: left;
-    flex-wrap: wrap;
-    gap: 20px;
-    
+
 }
 
-.container-menu{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: right;
-    margin-left: 34%;
-}
-.menu-container div{
-    display: flex;
-    flex-direction: column;
-    
-}
-.menu{
-    list-style:none;
-    float:left;
-    }
-.menu li{
-    top:0;
-    margin-top: 10px;
-    left: auto;
-    position:relative;
-    float: left;
-}
-.menu li a{
-    color:#ffffff; 
-    text-decoration:none;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding:5px 10px; 
-    display:block;
-    }
-
-.menu li a:hover{
-    background:#9340FF;
-    color:#fff;
-    box-shadow:0 3px 10px 0 #CCC;
-    -webkit-box-shadow:0 3px 10px 0 #ccc;
-    text-shadow:0px 0px 5px #fff;
-}   
-.menu li  ul{
-    position:absolute;
-    top:25px;
-    left:0;
-    background-color:#fff;
-    display:none;
-}
-
-.texto{
-    display: flex;
-    padding-top: 100px;
-    padding-left: 100px;
-    text-align: justify;
-    max-width: 500px;
-    left: auto;
-    position: relative;
-}
-.texto h2{
+.logo{
     color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;  
 }
+#imglogo{
+    width: 110px;
+}
+.menu a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
+}
+#logoimg{
+    width: 110px;
+    height: 110px;
+}
+
+.mostrar-menu, .esconder-menu{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    transition: 00.4s;
+
+}
+.mostrar-menu{
+    order: 1; 
+}
+.menu a:hover,
+.mostrar-menu:hover,
+.esconder-menu:hover{color: #6cc091;}
+
+
+#check{
+    display: none;
+}
+
