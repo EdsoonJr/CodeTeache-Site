@@ -20,7 +20,7 @@ header{
 
 .logo{
     color: #fff;
-    font-size: 40px;
+    font-size: 45px;
     font-family: Arial, Helvetica, sans-serif;  
 }
 #imglogo{
@@ -50,11 +50,28 @@ header{
 }
 .menu a:hover,
 .mostrar-menu:hover,
-.esconder-menu:hover{color: #6cc091;}
+.esconder-menu:hover{color:#FF3C5F;}
 
 
 #check{
     display: none;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.texto, .foto{
+    flex-grow: 1;
+    flex-basis: 200;
+}
+.texto h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: 100px;
+    height: auto;
+    padding: 0 50px;
 }
 
 @media (max-width: 768px){
