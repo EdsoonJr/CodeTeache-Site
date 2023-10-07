@@ -61,7 +61,7 @@ header{
     display: flex;
     flex-wrap: wrap;
 }
-.texto, .foto, .glow-on-hover{
+.texto, .imagem, .glow-on-hover{
     flex-grow: 1;
     flex-basis: 200;
 }
