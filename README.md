@@ -10,4 +10,5 @@ criado com o objetivo de demonstrar nossas habilidades em desenvolvimento web e 
 
 <a href="https://imgur.com/nxvUx7j" target="_blank"> <img src="https://i.imgur.com/nxvUx7j.png" title="source: imgur.com" />Tela</a>
 <a href="https://imgur.com/vIMKPuF"><img src="https://i.imgur.com/vIMKPuF.png" title="source: imgur.com" />form</a>
+<a href="https://www.google.com" target="_blank">Ir para o Google em nova página</a>
 
